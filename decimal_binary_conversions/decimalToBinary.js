@@ -13,9 +13,9 @@ function decimalToBinary(number, numberLength) {
     // Check if the number is negative
     const isNegative = number < 0;
 
-    if(numberLength != 11 || numberLength != 52){
-        throw new Error("Input should not be anything else than 11 and 52");
-    }
+    // if(numberLength != 11 || numberLength != 52){
+    //     throw new Error("Input should not be anything else than 11 and 52");
+    // }
     // Convert the absolute value of the number to binary
     let binaryRepresentation = Math.abs(number).toString(2);
   
@@ -37,4 +37,4 @@ function decimalToBinary(number, numberLength) {
   
   // Examples
   console.log(decimalToBinary(-1, 11));   // Output: 0001
-  console.log(decimalToBinary(-1, 5));  // Output: 10001
+  console.log(decimalToBinary(-1, 52));  // Output: 10001

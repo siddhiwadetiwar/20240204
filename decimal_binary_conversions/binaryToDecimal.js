@@ -7,7 +7,6 @@
  * to binary number
  * @param {Number} number the binary number to be converted
  * @param {Number} numberLength the length of input
- * @returns 
  */
 function binaryToDecimal(binary, numberLength) {
   // Extract the sign bit
@@ -33,5 +32,5 @@ function binaryToDecimal(binary, numberLength) {
 }
 
 // Examples
-console.log(binaryToDecimal('0001', 4));   // Output: 1
-console.log(binaryToDecimal('00011', 5));  // Output: -1
+console.log(binaryToDecimal('0001', 11));   
+console.log(binaryToDecimal('100011', 11));  
