@@ -90,8 +90,3 @@ function testsubtractionOperation() {
 
 // run the testing function
 testsubtractionOperation()
-const array1 = [1,2];
-const array2 = [9,0,0];
-
-const result = subtractionOperation(array1, array2);
-console.log("Result:", result);

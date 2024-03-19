@@ -70,9 +70,3 @@ function testAdditionOperation() {
 
 // run the testing function
 testAdditionOperation();
-
-const array1 = [9];
-const array2 = [9,9];
-const result = additionOperation(array1,array2);
-console.log("Result:", result);
-

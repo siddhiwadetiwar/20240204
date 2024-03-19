@@ -18,6 +18,9 @@ function multiplicationOperation(array1,array2){
 
     //declaring variable result as an array containing 0s
     let result = [];
+    if (array1.length === 0 || array2.length === 0) {
+        throw new Error("Empty arrays are not allowed");
+    }
 
     for(let j = 0; j < num1.length; j++){
         if(num1[j] < 0 || num2[j] < 0){
@@ -63,9 +66,3 @@ function testMultiplicationOperation() {
 
 // run the testing function
 testMultiplicationOperation();
-
-const array1 = [1,5];
-const array2 = [2,5,2];
-const result = multiplicationOperation(array1, array2);
-console.log("Result: [" + result.join(", ") + "]");
-
